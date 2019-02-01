@@ -14,7 +14,19 @@
 		<module>libraries</module>
 		<module>releases</module>
 	</modules>
-   <properties>
+	<distributionManagement>
+		<repository>
+			<id>maven-releases</id>
+			<name>Release Repository</name>
+			<url>http://104.40.13.108:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven-snapshots</id>
+			<name>Snapshot Repository</name>
+			<url>http://104.40.13.108:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<properties>
           <mvn.project.name>${project.name}</mvn.project.name>
           <mvn.project.version>${project.version}</mvn.project.version>
           <junit.version>4.12</junit.version>
