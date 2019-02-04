@@ -628,11 +628,6 @@
                   </plugin>
                   <plugin>
                       <groupId>org.apache.maven.plugins</groupId>
-                      <artifactId>maven-deploy-plugin</artifactId>
-                      <version>${plugins.maven-deploy-plugin.version}</version>
-                  </plugin>
-                  <plugin>
-                      <groupId>org.apache.maven.plugins</groupId>
                       <artifactId>maven-dependency-plugin</artifactId>
                       <version>${plugins.maven-dependency-plugin.version}</version>
                   </plugin>
@@ -811,8 +806,7 @@
                   <plugins.maven-pmd-plugin.version>3.6</plugins.maven-pmd-plugin.version>
                   <mojo.jdepend-maven-plugin.version>2.0</mojo.jdepend-maven-plugin.version>
                   <qulice.qulice-maven-plugin>0.16.5</qulice.qulice-maven-plugin>
-                  <plugins.maven-install-plugin.version>2.5.2</plugins.maven-install-plugin.version>
-                  <plugins.maven-deploy-plugin.version>2.8.2</plugins.maven-deploy-plugin.version>
+                  <plugins.maven-install-plugin.version>2.5.2</plugins.maven-install-plugin.version>                
                   <plugins.maven-dependency-plugin.version>2.10</plugins.maven-dependency-plugin.version>
                   <vafer.jdeb.version>1.4</vafer.jdeb.version>
                   <mojo.rpm-maven-plugin.version>2.1.4</mojo.rpm-maven-plugin.version>
