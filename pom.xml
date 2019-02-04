@@ -29,7 +29,6 @@
           <guava.version>15.0</guava.version>
           <jline.version>1.0</jline.version>
           <logging.version>1.7.5</logging.version>
-          <maven.deploy.skip>true</maven.deploy.skip>
           <!-- end plugin versions -->
       </properties>
 
