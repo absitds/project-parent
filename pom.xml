@@ -31,7 +31,13 @@
           <logging.version>1.7.5</logging.version>
           <!-- end plugin versions -->
       </properties>
-
+      <distributionManagement>
+	    <repository>
+	        <id>central</id>
+	        <name>4a2351d7b784-releases</name>
+	        <url>http://104.40.13.108:8081/artifactory/libs-release</url>
+	    </repository>
+	</distributionManagement>
       <repositories>
           <repository>
               <snapshots>
