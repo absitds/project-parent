@@ -696,11 +696,6 @@
                   </plugin>
                   <plugin>
                       <groupId>com.exadatum.xcatalyst.xmaven</groupId>
-                      <artifactId>depack-maven-plugin</artifactId>
-                      <version>${xmaven.depack-maven-plugin.version}</version>
-                  </plugin>
-                  <plugin>
-                      <groupId>com.exadatum.xcatalyst.xmaven</groupId>
                       <artifactId>deploy-maven-plugin</artifactId>
                       <version>${xmaven.deploy-maven-plugin.version}</version>
                   </plugin>
