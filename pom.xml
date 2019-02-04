@@ -31,40 +31,18 @@
           <logging.version>1.7.5</logging.version>
           <!-- end plugin versions -->
       </properties>
-      <distributionManagement>
-	<repositories>
-        <repository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>libs-release</name>
-          <url>http://104.40.13.108:8081/artifactory/libs-release</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>http://104.40.13.108:8081/artifactory/libs-snapshot</url>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>libs-release</name>
-          <url>http://104.40.13.108:8081/artifactory/libs-release</url>
-        </pluginRepository>
-        <pluginRepository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>http://104.40.13.108:8081/artifactory/libs-snapshot</url>
-        </pluginRepository>
-      </pluginRepositories>
-      </distributionManagement>   
+     <distributionManagement>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>4a2351d7b784-snapshots</name>
+		<url>http://104.40.13.108:8081/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
+	    <repository>
+		<id>central</id>
+		<name>4a2351d7b784-releases</name>
+		<url>http://104.40.13.108:8081/artifactory/libs-release</url>
+	    </repository>
+	</distributionManagement>
       <repositories>
           <repository>
               <snapshots>
