@@ -8,7 +8,7 @@
 	</formats>
 	<fileSets>
 		<fileSet>
-            <directory>${multi.module.project.root.dir}/configs/src/main/resources</directory>
+            <directory>${multi.module.project.root.dir}/config/src/main/resources</directory>
             <outputDirectory>/</outputDirectory>
             <fileMode>0755</fileMode>
         </fileSet>
